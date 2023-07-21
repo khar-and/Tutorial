@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.alert {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.success {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+.error {
+    color: red;
+}
+
+#title {
+    font-weight: 500;
+    color: orange;
+}
+
+.social-links a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu>li {
+    border: 1px solid tomato;
+}
+
+.link {
+    color: teal;
+}
+
+.link:hover {
+    color: tomato;
+}
+
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;

@@ -1,13 +1,90 @@
-!
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Вивчаємо CSS</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <h1>Привіт</h1>
+    <p class="alert success">Поповнення рахунку виконано</p>
+    <p class="alert warning">Увага, будуть змінені тарифи</p>
+    <p class="alert error">Помилка проведення транзакції</p>
+
+    <h1 id="title">Заголовок сторінки</h1>
+
+    <a href="">Читайте наш блог!</a>
+
+    <ul class="social-links">
+      <li>
+        <a class="link" href="">Twitter</a>
+      </li>
+      <li>
+        <a class="link" href="">Instagram</a>
+      </li>
+      <li>
+        <a class="link" href="">Facebook</a>
+      </li>
+    </ul>
+
+    <ul class="menu">
+      <li>
+        Комп'ютери та комплектуючі
+        <ul class="submenu">
+          <li>Процесори</li>
+          <li>Монітори</li>
+          <li>Відеокарти</li>
+        </ul>
+      </li>
+      <li>
+        Побутова техніка
+        <ul class="submenu">
+          <li>Холодильники</li>
+          <li>Телевізори</li>
+          <li>Пральні машини</li>
+        </ul>
+      </li>
+      <li>
+        Товари для дому
+        <ul class="submenu">
+          <li>Крісла</li>
+          <li>Матраци</li>
+          <li>Електрокаміни</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>
+      Хорошу шпаргалку з тегів можна знайти
+      <a class="link" href="https://htmlreference.io">за посиланням</a>.
+    </p>
+
+    <table class="schedule">
+      <thead>
+        <tr>
+          <th>Номер</th>
+          <th>Маршрут</th>
+          <th>Час у дорозі</th>
+        </tr>
+      </thead>
+
+      <tbody class="schedule-body">
+        <tr>
+          <td>433</td>
+          <td>Київ - Ковель</td>
+          <td>5 годин</td>
+        </tr>
+        <tr>
+          <td>701</td>
+          <td>Харків - Дніпро</td>
+          <td>7 годин</td>
+        </tr>
+        <tr>
+          <td>258</td>
+          <td>Львів - Одеса</td>
+          <td>4 годин</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
